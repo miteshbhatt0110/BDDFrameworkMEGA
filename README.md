@@ -19,4 +19,5 @@ scenarios listed below -
 2. Click on Test menu option -> Run
 3. The screenshots are generated after each scenario is run and they are stored in the Documents folder on the local machine
 4. The script uses data driven test for updating User Profile. To change the test data, go to the TestData folder in the project, and update ProfileData.csv 
+5. To run the Registration successful test multiple times, the Username on the feature file would need to be changed - This is because only unique usernames are allowed to be registered
 
