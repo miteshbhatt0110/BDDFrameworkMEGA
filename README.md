@@ -8,7 +8,7 @@ scenarios listed below -
 3. Update User Profile - Verify user can update Profile
 4. Comment and Vote - Verify user can Vote and Comment on a Car
 
-### Prerequisites
+## Prerequisites
 1. Install Visual Studio 2019
 2. Dependencies that need to be installed on Visual Studio
    Use NuGet (Project > Manage NuGet packages) to install Specflow, Nunit and Selenium
