@@ -13,20 +13,7 @@ scenarios listed below -
 2. Dependencies that need to be installed on Visual Studio
    Use NuGet (Project > Manage NuGet packages) to install Specflow, Nunit and Selenium
 3. $ git clone https://github.com/miteshbhatt0110/WestpacBDDFramework.git
-4. Open the .csproj file on Visual Studio and add the below dependencies:
-<ItemGroup>
-		<PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
-		<PackageReference Include="Noksa.WebDriver.ScreenshotsExtensions" Version="0.1.5.3" />
-		<PackageReference Include="NUnit" Version="3.13.0" />
-		<PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
-		<PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="90.0.4430.2400" />
-		<PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.29.1" />
-		<PackageReference Include="SpecFlow" Version="3.7.38" />
-		<PackageReference Include="SpecFlow.NUnit" Version="3.7.38" />
-		<PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
-</ItemGroup>
+
 
 ## How to Run the tests
 1. Once the project is cloned onto the local repository, tests can be run via Test Explorer on VS2019
