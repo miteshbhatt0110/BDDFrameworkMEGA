@@ -85,7 +85,7 @@ namespace WestpacBDDFramework.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify that user can vote for a car and comments can be seen on the voting page")]
         [NUnit.Framework.CategoryAttribute("VoteAndCommentTests")]
-        [NUnit.Framework.TestCaseAttribute("MiteshBi", "mynameisMitesh@123", null)]
+        [NUnit.Framework.TestCaseAttribute("MitCarUser", "mynameisMitesh@123", null)]
         public virtual void VerifyThatUserCanVoteForACarAndCommentsCanBeSeenOnTheVotingPage(string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {

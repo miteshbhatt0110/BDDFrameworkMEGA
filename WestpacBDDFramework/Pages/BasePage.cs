@@ -7,6 +7,10 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
+/// <summary>
+/// This file is contains all the library methods used to interact with the elements on the webpage.
+/// It contains methods to find element, wait, click, enter text and so on.
+/// </summary>
 namespace WestpacBDDFramework.Pages
 {
     public class BasePage

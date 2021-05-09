@@ -8,6 +8,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class ProfilePage : BasePage
     {
+        // Elements in the Edit profile page
+
         private readonly By _userNameTextbox = By.Id("username");
         private readonly By _firstNameTextbox = By.Id("firstName");
         private readonly By _lastNameTextbox = By.Id("lastName");
@@ -22,7 +24,6 @@ namespace WestpacBDDFramework.Pages
         private readonly By _languageDropDown = By.Id("language");
         private readonly By _saveButton = By.CssSelector(".btn.btn-default");
         private readonly By _profileSaveSuccessfulMessage = By.CssSelector(".result.alert.alert-success");
-
 
         public ProfilePage(IWebDriver driver) : base(driver)
         {

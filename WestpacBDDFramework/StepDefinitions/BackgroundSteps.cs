@@ -10,8 +10,7 @@ namespace WestpacBDDFramework.StepDefinitions
     public class BackgroundSteps : BaseSteps
     {
         public BackgroundSteps(IWebDriver driver) : base(driver)
-        {
-            
+        {            
         }
         [Given(@"I navigate to Buggy Cars website")]
         public void GivenINavigateToBuggyCarsWebsite()

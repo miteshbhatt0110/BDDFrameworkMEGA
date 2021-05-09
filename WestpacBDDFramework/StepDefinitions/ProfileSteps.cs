@@ -25,6 +25,7 @@ namespace WestpacBDDFramework.StepDefinitions
         {
             homePage.ClickProfile();
         }
+
         [Then(@"I should see Basic and Additional Info about my profile")]
         public void ThenIShouldSeeBasicAndAdditionalInfoAboutMyProfile()
         {
@@ -33,6 +34,7 @@ namespace WestpacBDDFramework.StepDefinitions
                 BasePage.WaitForElementToBeDisplayed(field, 5);
             }
         }
+
         [When(@"I enter my profile details")]
         public void WhenIEnterMyProfileDetails()
         {
@@ -49,14 +51,15 @@ namespace WestpacBDDFramework.StepDefinitions
                 profilePage.EnterAddress(profileDataToEnter[5].ToString());
                 profilePage.EnterPhone(profileDataToEnter[6].ToString());
                 profilePage.EnterHobby(profileDataToEnter[7].ToString());
-
             }
         }
+
         [When(@"I click on Save")]
         public void WhenIClickOnSave()
         {
             profilePage.ClickSave();
         }
+
         [Then(@"I should see the profile save is successful message")]
         public void ThenIShouldSeeTheProfileSaveIsSuccessfulMessage()
         {

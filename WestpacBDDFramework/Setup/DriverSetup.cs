@@ -12,6 +12,11 @@ using OpenQA.Selenium.Support.Extensions;
 using System.IO;
 using System.Reflection;
 
+/// <summary>
+/// This file is the Hooks file for Selenium web driver initialization, disposing the driver and taking the screenshot after the
+/// test has finished the execution
+/// </summary>
+
 namespace WestpacBDDFramework.Setup
 {
     [Binding]
@@ -30,7 +35,7 @@ namespace WestpacBDDFramework.Setup
         public void Initialize()
         {
             String browser = ConfigurationManager.AppSettings["browser"];
-            _driver = GetDriver("CHROME");
+            _driver = GetDriver("CHROME"); // Hardcoded to Chrome but can set the parameter to 'browser' from App.config file
             _driver.Manage().Window.Maximize();
         }
 

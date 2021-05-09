@@ -8,6 +8,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class CarsPage : BasePage
     {
+        // Elements in the Car links page 
+
         private readonly By _PopularMakeLink = By.XPath("//a[@href='/make/c0bm09bgagshpkqbsuag']");
         private readonly By _lamborghiniDiabloLink = By.XPath("//a[@href='/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0']");
         private readonly By _registeredModelsLink = By.XPath("//a[@href='/overall']");

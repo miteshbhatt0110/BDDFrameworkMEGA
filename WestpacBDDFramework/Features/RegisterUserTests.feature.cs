@@ -85,7 +85,7 @@ namespace WestpacBDDFramework.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify that user can successfully register on the Register page")]
         [NUnit.Framework.CategoryAttribute("RegistrationTests")]
-        [NUnit.Framework.TestCaseAttribute("MitUserTest", "Mitesh", "Bhatt", "mynameisMitesh@123", "mynameisMitesh@123", null)]
+        [NUnit.Framework.TestCaseAttribute("MitCarUser", "Mitesh", "Bhatt", "mynameisMitesh@123", "mynameisMitesh@123", null)]
         public virtual void VerifyThatUserCanSuccessfullyRegisterOnTheRegisterPage(string username, string firstName, string lastName, string password, string confirmPassword, string[] exampleTags)
         {
             string[] @__tags = new string[] {
@@ -143,7 +143,7 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify that user cannot register with same username")]
-        [NUnit.Framework.TestCaseAttribute("MitUserTest", "Mitesh", "Bhatt", "mynameisMitesh@123", "mynameisMitesh@123", null)]
+        [NUnit.Framework.TestCaseAttribute("MitCarUser", "Mitesh", "Bhatt", "mynameisMitesh@123", "mynameisMitesh@123", null)]
         public virtual void VerifyThatUserCannotRegisterWithSameUsername(string username, string firstName, string lastName, string password, string confirmPassword, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

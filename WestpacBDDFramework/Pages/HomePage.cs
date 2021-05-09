@@ -7,6 +7,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class HomePage : BasePage
     {
+        // Elements in the home page 
+
         private readonly By _registerButton = By.XPath("//a[@href='/register']");
         private readonly By _userNameText = By.Name("login");
         private readonly By _password = By.Name("password");

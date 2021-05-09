@@ -8,6 +8,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class DiabloCommentsPage : BasePage
     {
+        // Elements in the Diablo car page
+
         private readonly By _diabloImage = By.XPath("//img[@src='/img/cars/Diablo.jpg']");
         private readonly By _diabloDescription = By.XPath("//div//p[contains(text(),'This last')]");
         private readonly By _listOfComments = By.XPath("//table[@class='table']");

@@ -8,6 +8,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class RegistrationPage : BasePage
     {
+        // Elements in the Registration Page after the Register button is clicked
+
         private readonly By _loginTextbox = By.Id("username");
         private readonly By _firstNameTextbox = By.Id("firstName");
         private readonly By _lastNameTextbox = By.Id("lastName");
@@ -52,6 +54,5 @@ namespace WestpacBDDFramework.Pages
         {
             AssertText(_userExistsMessage, value);
         }
-
     }
 }

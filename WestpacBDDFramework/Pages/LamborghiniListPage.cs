@@ -8,6 +8,8 @@ namespace WestpacBDDFramework.Pages
 {
     public class LamborghiniListPage : BasePage
     {
+        // Elements in the Lamborghini Page when the Popular links is clicked
+
         private readonly By _lamborghiniImage = By.XPath("//img[@src='/img/header-car.gif']");
         private readonly By _lamborghiniDescription = By.XPath("//div[@class='col-md-9']");
         private readonly By _listOfModels = By.CssSelector(".cars.table.table-hover");
