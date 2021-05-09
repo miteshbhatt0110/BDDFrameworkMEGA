@@ -21,3 +21,5 @@ scenarios listed below -
 4. The script uses data driven test for updating User Profile. To change the test data, go to the TestData folder in the project, and update ProfileData.csv 
 5. To run the Registration successful test multiple times, the Username on the feature file would need to be changed - This is because only unique usernames are allowed to be registered
 
+## Test document contains the details about the Testing approach and Bug report
+
