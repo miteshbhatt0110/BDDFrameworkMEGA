@@ -1,7 +1,7 @@
 # WestpacBDDFramework
 
 ## Overview
-The sample project contains Selenium automation code to test Buggy Cars Rating website. Selenium BDD framework with Page Object Model has been used to automate the critical 
+The project contains Selenium automation code to test Buggy Cars Rating website. Selenium BDD framework with Page Object Model (using C#) has been used to automate the critical 
 scenarios listed below - 
 1. Login Tests - Verify Valid and Invalid credentials
 2. User Registration Tests - Verify registration of a new user and registration of a user that already exists
@@ -21,5 +21,6 @@ scenarios listed below -
 4. The script uses data driven test for updating User Profile. To change the test data, go to the TestData folder in the project, and update ProfileData.csv 
 5. To run the Registration successful test multiple times, the Username on the feature file would need to be changed - This is because only unique usernames are allowed to be registered
 
-## Test document contains the details about the Testing approach and Bug report
+## Testing approach and Bug report
+1. Test Document.docx has been attached to the repo that contains the Testing approach and Bug report
 
