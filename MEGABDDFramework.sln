@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestpacBDDFramework", "WestpacBDDFramework\WestpacBDDFramework.csproj", "{4CE539FB-1750-4448-B12F-5C1F1A107060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEGABDDFramework", "MEGABDDFramework\MEGABDDFramework.csproj", "{4CE539FB-1750-4448-B12F-5C1F1A107060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

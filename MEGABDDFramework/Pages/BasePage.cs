@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 
 /// <summary>
@@ -61,11 +62,26 @@ namespace WestpacBDDFramework.Pages
                 return null;
             }
         }
+
+        public static void RightClick(By by)
+        {
+            Actions actions = new Actions(_driver);
+            IWebElement element = WaitForElementToBeClickable(by);
+            actions.Click(element).Build().Perform();
+            actions.ContextClick(element).Build().Perform();
+        }
         public static void EnterText(By by, string text)
         {
             IWebElement element = WaitForElementToBeDisplayed(by, 5);
-            element.Clear();
             element.SendKeys(text);
+        }
+
+        public static string GetText(By by)
+        {
+            IWebElement element = WaitForElementToBeDisplayed(by, 5);
+            element.Clear();
+            string text = element.Text.ToString();
+            return text;
         }
 
         public static void EnterIntText(By by, int number)
