@@ -12,7 +12,7 @@ scenarios listed below -
 1. Install Visual Studio 2019
 2. Dependencies that need to be installed on Visual Studio
    Use NuGet (Project > Manage NuGet packages) to install Specflow, Nunit and Selenium
-3. $ git clone https://github.com/miteshbhatt0110/WestpacBDDFramework.git
+3. $ git clone https://github.com/miteshbhatt0110/BDDFrameworkMEGA.git
 
 
 ## How to Run the tests
