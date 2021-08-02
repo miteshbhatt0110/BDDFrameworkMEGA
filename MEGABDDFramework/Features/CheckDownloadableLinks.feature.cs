@@ -75,11 +75,11 @@ namespace MEGABDDFramework.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Verify that all the linux links on drop down are downloadable")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.CategoryAttribute("DownloadLinks")]
         public virtual void VerifyThatAllTheLinuxLinksOnDropDownAreDownloadable()
         {
             string[] tagsOfScenario = new string[] {
-                    "mytag"};
+                    "DownloadLinks"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify that all the linux links on drop down are downloadable", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
