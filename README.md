@@ -1,12 +1,12 @@
-# WestpacBDDFramework
+# MEGABDDFramework
 
 ## Overview
 The project contains Selenium automation code to test Buggy Cars Rating website. Selenium BDD framework with Page Object Model (using C#) has been used to automate the critical 
 scenarios listed below - 
-1. Login Tests - Verify Valid and Invalid credentials
-2. User Registration Tests - Verify registration of a new user and registration of a user that already exists
-3. Update User Profile - Verify user can update Profile
-4. Comment and Vote - Verify user can Vote and Comment on a Car
+1. Verify that a sample file can be created on File manager screen
+2. Verify that the sample file can be deleted
+3. Verify that that sample file can be restored from Rubbish Bin
+4. Verify that all the linux links (35) on drop down are downloadable - RestSharp has been used in conjuction with BDD to verify that all links are downloadable
 
 ## Prerequisites and packages to install
 1. Install Visual Studio 2019
@@ -19,9 +19,5 @@ scenarios listed below -
 1. Once the project is cloned onto the local repository, tests can be run via Test Explorer on VS2019
 2. Click on Test menu option -> Run
 3. The screenshots are generated after each scenario is run and they are stored in the Documents folder on the local machine
-4. The script uses data driven test for updating User Profile. To change the test data, go to the TestData folder in the project, and update ProfileData.csv 
-5. To run the Registration successful test multiple times, the Username on the feature file would need to be changed - This is because only unique usernames are allowed to be registered
-
-## Testing approach and Bug report
-1. Test Document.docx has been attached to the repo that contains the Testing approach and Bug report
+4. The script uses data driven test for Login. To change the test data, go to the TestData folder in the project, and update ProfileData.csv - add your email id and password. 
 
